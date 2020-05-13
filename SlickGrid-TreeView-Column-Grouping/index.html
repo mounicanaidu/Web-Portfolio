@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Manyam SlickGrid TreeView ColumnGrouping</title>
+    <!-- slickGrid -->
+    <link rel="stylesheet" href="component/SlickGrid-2.3.16/slick.grid.css">
+    <link rel="stylesheet" href="component/SlickGrid-2.3.16/css/smoothness/jquery-ui-1.11.3.custom.min.css">
+    <!-- external files used by slickGrid -->
+    <script src="component/SlickGrid-2.3.16/lib/firebugx.js"></script>
+    <script src="component/SlickGrid-2.3.16/lib/jquery-1.11.2.min.js"></script>
+    <script src="component/SlickGrid-2.3.16/lib/jquery-ui-1.11.3.min.js"></script>
+    <script src="component/SlickGrid-2.3.16/lib/jquery.event.drag-2.3.0.js"></script>
+    <!-- slickGrid core files for treeview and column grouping -->
+    <script src="component/SlickGrid-2.3.16/slick.core.js"></script>
+    <script src="component/SlickGrid-2.3.16/slick.formatters.js"></script>
+    <script src="component/SlickGrid-2.3.16/slick.editors.js"></script>
+    <script src="component/SlickGrid-2.3.16/slick.dataview.js"></script>
+    <script src="component/SlickGrid-2.3.16/slick.grid.js"></script>
+    <!-- Data -->
+    <script src="TemperatureVoltages_3.json"></script>
+    <script src="data.json"></script>
+    <!-- plugin JS and CSS -->
+    <script src="manyamSlickGrid.js"></script>
+    <link rel="stylesheet" href="manyamSlickGrid.css">
+    <!-- D3 for data manipulation -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+    <table width="100%">
+        <tr>
+            <div id="myGrid" style="width:90%;height:600px;"></div>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        var manyamGrid = new ManyamSlickGrid('#myGrid');
+        manyamGrid.generateTreeTable({
+            data: data,
+            rowGroups: ["county", "state", "city", "company_name", "first_name"],
+            columnGroups: {
+                "Salary": ["salary_per_month", "min_wage"],
+                "Personal Information": ["age", "children", "vehicles_owned"]
+            },
+            aggregations: {
+                "salary_per_month": "sum",
+                "min_wage": "min",
+                "age": "mean",
+                "children": "sum",
+                "vehicles_owned" : "sum"
+            }
+        });
+    </script>
+</body>
+
+</html>

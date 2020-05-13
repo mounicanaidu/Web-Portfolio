@@ -1,0 +1,26 @@
+/**
+ * @author - Mounica Naidu M
+ * GitHub Repo - 
+ */
+
+ .cell-title {
+    font-weight: bold;
+  }
+
+  .cell-effort-driven {
+    text-align: center;
+  }
+
+  .toggle {
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+  }
+
+  .toggle.expand {
+    background: url(component/SlickGrid-2.3.16/images/expand.gif) no-repeat center center;
+  }
+
+  .toggle.collapse {
+    background: url(component/SlickGrid-2.3.16/images/collapse.gif) no-repeat center center;
+  }

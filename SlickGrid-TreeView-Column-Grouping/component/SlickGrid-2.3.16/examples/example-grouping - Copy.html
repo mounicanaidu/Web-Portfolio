@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="dist/css/bootstrap-treefy.css">
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="dist/bootstrap-treefy.js"></script>
+  <link rel="stylesheet" href="font-awesome.min.css">
+
+</head>
+
+<body>
+  <table class="table table-striped" id="table">
+    <thead>
+      <tr>
+        <th>Column A</th>
+        <th>Column B</th>
+        <th>Column C</th>
+        <th>Column D</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr data-node="treetable-1">
+        <td>Node</td>
+        <td>1</td>
+        <td>c</td>
+        <td>info</td>
+      </tr>
+      <tr data-node="treetable-2" data-pnode="treetable-parent-1">
+        <td>Node</td>
+        <td>1-1</td>
+        <td>c</td>
+        <td>info</td>
+      </tr>
+      <tr data-node="treetable-3" data-pnode="treetable-parent-1">
+        <td>Node</td>
+        <td>1-2</td>
+        <td>c</td>
+        <td>info</td>
+      </tr>
+    </tbody>
+  </table>
+  <script>$("#table").treeFy();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #000d1a, #0068d1);
+}
+
+.navbar a{
+  color: #95adc4;
+}
+
+.activeNavLink, .navbar a:hover{
+  color: white !important;
+}
+
+.search-bar {
+  margin-right: 5px;
+}
+
+.navElements {
+  margin: 5px 15px 5px 0px;
+}
+
+.bookmark {
+  color: white;
+  font-size: 20px;
+}
+
+@media all and (min-width: 980px) {
+  .nytimes-switch { 
+    padding-right: 0px !important;
+  } 
+  
+  .guardian-switch {
+    padding-left: 0px !important;
+  }
+
+  .switch-wrapper {
+  text-align: center;
+  }
+}
+
+.switch {
+  color: white;
+  margin-bottom: 0px;
+  padding-right: 30px;
+}
+
+.switch-icon {
+  vertical-align: middle;
+}
+
+.article-container {
+  margin: 15px;
+}
+
+.article {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: #e7e7e7 1px solid;
+  box-shadow: 0px 5px 5px #c5c5c5;
+  border-radius: 3px;
+  
+}
+
+.article-image-container {
+  /* padding: 2px; */
+  border: #dadada 1px solid;
+  border-radius: 3px;
+}
+
+.article-image {
+  object-fit: cover;
+  padding: 4px;
+}
+
+.article-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.article-share {
+  display: inline;
+  margin-left: 2px;
+}
+
+.article-desc {
+  font-size: 14px;
+}
+
+.article-page-desc{
+  margin-top: 10px;
+}
+
+.delete-button {
+  font-size: 12px;
+  margin: 0px 5px;
+}
+
+.article-date-section {
+  margin: 10px 0px 0px 0px;
+}
+
+.article-date {
+  font-size: 15px;
+  font-style: italic;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.article-source-section {
+  float: right;
+  margin-right: -2px;
+}
+
+.article-section {
+  /* border: 1px black solid; */
+  font-size: 14px;
+  font-weight: 600;
+  padding: 1px 6px 3px 6px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width:max-content;
+  margin: 0px 3px;
+}
+
+.article-section-other {
+  color: white;
+  background-color: #6e757c;
+}
+
+.article-section-world {
+  color: white;
+  background-color: #c63ada;
+}
+
+.article-section-politics {
+  color: white;
+  background-color: #419488;
+}
+
+.article-section-business {
+  color: white;
+  background-color: #4696ec;
+}
+
+.article-section-technology {
+  color: black;
+  background-color: #c2da00;
+}
+
+.article-section-sports {
+  color: black;
+  background-color: #f6c244;
+}
+
+.article-section-guardian {
+  color: white;
+  background-color: #14284a;
+}
+
+.article-section-nytimes {
+  color: black;
+  background-color: #dddddd;
+}
+
+.article-modal-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.article-modal-sharevia {
+  justify-content: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.article-modal-source {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+.article-page .article-share-icons {
+  float: right;
+}
+
+.article-share-icons {
+  justify-content: end;
+}
+
+.article-share-icons .col-1 {
+  padding: 0px;
+  min-width: 30px !important;
+}
+
+.shareIconSpacing {
+  justify-content: space-evenly;
+}
+
+
+.bookmark-wrapper {
+  display: flex;
+  justify-content: center;
+  top: 4px;
+}
+
+.article-page {
+  padding-bottom: 30px;
+}
+
+.article-page-title {
+  font-size: 22px;
+  /* font-weight: 600; */
+  font-style: italic;
+}
+
+.article-page-desc {
+  text-align: justify;
+}
+
+.article-page-image {
+  object-fit: cover;
+  padding: 5px;
+}
+
+.article-page-meta {
+  /* margin-bottom: 10px; */
+  padding-left: 15px;
+}
+
+.chevron-icon {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.article-card {
+  padding: 20px;
+  border: #e1e1e1 1px solid;
+  box-shadow: 0px 5px 5px #b5b0b0;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+
+.addMargin {
+  margin-bottom: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.noFavArticles{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.articleToast {
+  color: black !important;
+} 
+
+
+@media all and (min-width: 601px) {
+  .search-bar {
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .search-bar {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .article-section {
+    font-size: 10px;
+  }
+
+  .article-date {
+    font-size: 12px;
+  }
+
+  .article-title {
+    font-size: 14px;
+  }
+
+  .rticle-desc {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .search-bar {
+    width: 60%;
+    max-width: 300px;
+  }
+}

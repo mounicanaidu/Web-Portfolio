@@ -23,6 +23,18 @@ A user first opens the webiste, where they can read top headlines provided by th
 **Figure 1**
 ![Image of landing page](https://github.com/mounicanaidu/Web-Portfolio/blob/master/NewsApp-Flask/images/1.PNG)
 
+## [Plotly Timeline using bar graph](https://github.com/mounicanaidu/manyamPlotlyTimeline)
+
+Created timeline on Plotly.js using simple bar graphs.
+![alt text](https://github.com/mounicanaidu/manyamPlotlyTimeline/blob/master/screenshots/screenshot-01.png)
+
+Why manyamPlotlyTimeline exists -
+
+   * Plotly which is awesome in itself hasn't yet developed a timeline view but provides great interactivity such as zoom, tootlips, chart download and much more. Refer [plotly](https://plotly.com/javascript/) for more information.
+   * Creating a new timeline takes effort and is time consuming.
+   
+Refer [here](https://github.com/mounicanaidu/manyamPlotlyTimeline) for usage.
+
 ## [SlickGrid treeview column grouping - manyamSlickGrid](https://github.com/mounicanaidu/Web-Portfolio/tree/master/SlickGrid-TreeView-Column-Grouping)
 
 manyamSlickGrid born from SlickGrid TreeView combined with Column Grouping feature with advanced JSON processing, aggregations and automatic parent child relationship creation.
@@ -36,12 +48,4 @@ Why manyamSlickGrid exists -
     * Creating unique ID
 ![Image of plugin output](https://github.com/mounicanaidu/Web-Portfolio/blob/master/SlickGrid-TreeView-Column-Grouping/screenshots/screenshot-01.PNG)
 
-## [Plotly Timeline using bar graph](https://github.com/mounicanaidu/manyamPlotlyTimeline)
-
-Created timeline on Plotly.js using simple bar graphs.
-![alt text](https://github.com/mounicanaidu/manyamPlotlyTimeline/blob/master/screenshots/screenshot-01.png)
-
-Why manyamPlotlyTimeline exists -
-
-   * Plotly which is awesome in itself hasn't yet developed a timeline view but provides great interactivity such as zoom, tootlips, chart download and much more. Refer plotly for more information.
-   * Creating a new timeline takes effort and is time consuming.
+Refer [here](https://github.com/mounicanaidu/Web-Portfolio/tree/master/SlickGrid-TreeView-Column-Grouping) for usage.

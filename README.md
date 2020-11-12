@@ -35,3 +35,13 @@ Why manyamSlickGrid exists -
     * Assigning correct indentation to the rows
     * Creating unique ID
 ![Image of plugin output](https://github.com/mounicanaidu/Web-Portfolio/blob/master/SlickGrid-TreeView-Column-Grouping/screenshots/screenshot-01.PNG)
+
+## [Plotly Timeline using bar graph](https://github.com/mounicanaidu/manyamPlotlyTimeline)
+
+Created timeline on Plotly.js using simple bar graphs.
+![alt text](https://github.com/mounicanaidu/manyamPlotlyTimeline/blob/master/screenshots/screenshot-01.png)
+
+Why manyamPlotlyTimeline exists -
+
+   * Plotly which is awesome in itself hasn't yet developed a timeline view but provides great interactivity such as zoom, tootlips, chart download and much more. Refer plotly for more information.
+   * Creating a new timeline takes effort and is time consuming.

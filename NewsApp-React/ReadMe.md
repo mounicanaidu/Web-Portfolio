@@ -1,7 +1,5 @@
 ## [News App using React and Node.js](https://github.com/mounicanaidu/Web-Portfolio/tree/master/NewsApp-React)
 
-For working app: [Click here](http://reactnewsapplication-env-1.eba-ih2umy3u.us-east-1.elasticbeanstalk.com/)
-
 
 Webpage to display top headlines for both New York Times and Guardian News. Based on the selection by the user, the top-headlines are any of the following domains – world, politics, business, technology and sports. Each such article can be shared by the user on Facebook, Twitter or via Email. 
 
